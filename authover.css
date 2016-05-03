@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+
+table {
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+iframe {
+   border:0;
+   padding: 0;
+   margin: 0;
+  /*pointer-events: none;*/ 
+  width: 100%;
+  line-height: 0; 
+  display:block;
+}
+
+.header {
+  border-bottom: 1px solid #000
+}
+
+.content {
+  height: 100%;
+}
+
+#exit-content {
+  display: none;
+}
+
+.iframe-load {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -200px;
+}
+
+#simplemodal-container {
+  padding: 10px;
+}

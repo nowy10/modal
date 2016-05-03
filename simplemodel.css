@@ -1,0 +1,21 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2008 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 162 2008-12-01 23:36:58Z emartin24 $
+ *
+ */
+
+/* Overlay */
+#simplemodal-overlay {background-color:#aaaaaa; }
+
+/* Container */
+#simplemodal-container {height: 560px; width: 100%; max-width: 800px; }
+#simplemodal-container a.modalCloseImg {background:url('../img/btn-modal-close.png') no-repeat; background-size: 100%; width:35px; height:35px; display:inline; z-index:3200; position:absolute; top:-10px; right:-10px; cursor:pointer;}
+#simplemodal-container #basicModalContent {padding:8px;}
